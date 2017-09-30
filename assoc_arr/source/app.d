@@ -11,5 +11,7 @@ void main(string[] args)
 	(*("hello" in dict))++;
 	dict.writeln;
 	dict.keys.writeln;
+	dict.remove("hello");
+	dict.writeln;
 }
 
