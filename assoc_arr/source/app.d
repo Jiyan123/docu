@@ -10,5 +10,6 @@ void main(string[] args)
 	dict["hi"] = 2;
 	(*("hello" in dict))++;
 	dict.writeln;
+	dict.keys.writeln;
 }
 
