@@ -4,5 +4,5 @@ import std.getopt;
 void main(string []argv)
 {
 	getopt(argv,
-	"1");
+	"2");
 }
