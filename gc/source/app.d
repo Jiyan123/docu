@@ -31,7 +31,7 @@ void main(string[] args)
 		printf("%s\n",Runtime.cArgs.argv[i]);
 	}
 
-	foreach(n; 0 .. 20000)
+	foreach(n; 0 .. 2000)
 	{
 		{
 			int[] p = new int[100];

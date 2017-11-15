@@ -25,5 +25,7 @@ void main()
 	s.writeln;
 	s ~= "dordo vogel\ndes deso dogg";
 	s.split(regex("o")).each!writeln;
+
+	"Ende".writeln;
 }
 
